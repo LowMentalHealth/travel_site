@@ -1,0 +1,65 @@
+{% extends 'shablon.html' %}
+
+{% block title %}
+билеты
+{% endblock %}
+
+{% block body %}
+<section class="py-5 text-center container">
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://avatars.mds.yandex.net/i?id=0b89a5fdb75416059eda3aac4023c67e7cdca527-7947996-images-thumbs&n=13">
+            <div class="card-body">
+              <p class="card-text"><strong>Москва</strong></p>
+              <p class="card-text">Хочешь глянуть столицу? Ну тогда тебе точно сюда, большой город с кучей возможностей. Думаю тут тебя точно не найдут, да и мы поможем спрятаться. Что может быть лучше?</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <form action="https://www.tutu.ru" target="_blank">
+                  <button type="submit" class="btn btn-sm btn-outline-secondary">купить</button>
+                  </form>
+<!--                  <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>-->
+                </div>
+                <small class="text-muted">500000 rub</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://avatars.mds.yandex.net/i?id=a026301b6ae251334c1575a5cc830bf260e253ab-9244694-images-thumbs&n=13">
+            <div class="card-body">
+              <p class="card-text"><strong>Питер</strong></p>
+              <p class="card-text">Культурная столица России или же соленая? Все зависит от твоих предпочтений.</p>
+              <p class="card-text">Если сильно не увлекаться солями и девочками заливающимися дешевым вином "не такими как все" то все пройдет как по маслу.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <form action="https://www.tutu.ru/poezda/station_d.php?nnst=2004000" target="_blank">
+                  <button type="submit" class="btn btn-sm btn-outline-secondary">Купить</button>
+                  </form>
+                </div>
+                <small class="text-muted">380000 rub</small>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card shadow-sm">
+            <img src="https://avatars.mds.yandex.net/i?id=15a7735d03cd935cade5bc2d072ced999f2ddcc9-8280929-images-thumbs&n=13">
+            <div class="card-body">
+              <p class="card-text"><strong>Челябинск</strong></p>
+              <p class="card-text">Оооооо... А ты точно уверен в своем выборе?</p>
+              <p class="card-text">Либо ты токсикоман либо у тебя все настолько плохо, но нам будет интересно глянуть на то как ты выживешь.</p>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="btn-group">
+                  <form action="https://www.tutu.ru" target="_blank">
+                  <button type="submit" class="btn btn-sm btn-outline-secondary">Купить</button>
+                  </form>
+                </div>
+                <small class="text-muted">80000 rub</small>
+              </div>
+            </div>
+          </div>
+        </div>
+</div>
+{% endblock %}
